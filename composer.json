@@ -1,0 +1,22 @@
+{
+    "name": "jonasyeah/translator",
+    "description": "php translator for baidu, youdao",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jonas",
+            "email": "783324793@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jonas\\Translator\\": "src/"
+        },
+        "files": ["src/Support/helpers.php"]
+    }
+}
