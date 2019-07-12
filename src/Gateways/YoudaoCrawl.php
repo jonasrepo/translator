@@ -74,6 +74,6 @@ class YoudaoCrawl extends AbsGateway
      */
     protected function generateSign($salt, $str)
     {
-        return md5('fanyideskweb' . $str . $salt .'@6f#X3=cCuncYssPsuRUE');
+        return md5('fanyideskweb' . $str . $salt .'97_3(jkMYg@T[KZQmqjTK');
     }
 }
